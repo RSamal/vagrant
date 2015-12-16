@@ -21,4 +21,4 @@ cd /vagrant
 sudo -u vagrant wget -q "https://raw.githubusercontent.com/RSamal/vagrant/master/files/index.html"
 sudo -u vagrant wget -q "https://github.com/RSamal/vagrant/blob/master/files/info.php"
 
-service http restart
+service httpd restart
