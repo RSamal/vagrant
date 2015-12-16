@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Apache
-yum install -y http httpd-devel httpd-tools
+yum install -y httpd httpd-devel httpd-tools
 chkconfig --add httpd
-chkconfig http on
+chkconfig httpd on
 
 service httpd stop
 rm -rf /var/www/html
